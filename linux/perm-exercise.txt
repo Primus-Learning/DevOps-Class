@@ -1,0 +1,75 @@
+Objective:
+
+To test your understanding of file permissions and users in Linux.
+
+Instructions:
+
+Create a new directory called "permissions-exercise" in your home directory.
+
+Create a subdirectory called "files" inside the "permissions-exercise" directory.
+
+Create three empty text files called "file1.txt", "file2.txt", and "file3.txt" inside the "files" directory.
+
+Use the "ls" command to verify that the files have been created.
+
+Change the owner of "file1.txt" to the user "alice" using the "chown" command.
+
+Change the group ownership of "file2.txt" to the group "developers" using the "chgrp" command.
+
+Use the "chmod" command to give the owner of "file1.txt" read, write, and execute permissions, and give read permissions to everyone else.
+
+Use the "chmod" command to give the group "developers" read and write permissions, and give read permissions to everyone else.
+
+Use the "chmod" command to give "file3.txt" read and write permissions to the owner, and no permissions to anyone else.
+
+Use the "ls -l" command to verify that the permissions have been set correctly.
+
+Create a new user called "bob" using the "adduser" command.
+
+Use the "passwd" command to set a password for the "bob" user.
+
+Use the "chown" command to change the owner of "file2.txt" to the "bob" user.
+
+Use the "ls -l" command to verify that the owner of "file2.txt" has been changed to "bob".
+
+Log in as the "bob" user using the "su" command.
+
+Attempt to read the contents of "file2.txt" using the "cat" command.
+
+Use the "exit" command to return to your original user account.
+
+Use the "chown" command to change the owner of "file3.txt" to the user "bob".
+
+Use the "chgrp" command to change the group ownership of "file3.txt" to the group "developers".
+
+Use the "chmod" command to give the group "developers" read and write permissions, and no permissions to anyone else.
+
+Use the "ls -l" command to verify that the permissions have been set correctly.
+
+Use the "su" command to log in as the "bob" user.
+
+Use the "cat" command to read the contents of "file3.txt".
+
+Use the "echo" command to add a line of text to "file3.txt".
+
+Use the "exit" command to return to your original user account.
+
+Use the "ls -l" command to verify that the contents of "file3.txt" have been modified.
+
+Use the "chmod" command to revoke all permissions for "file3.txt".
+
+Use the "su" command to log in as the "bob" user.
+
+Attempt to read the contents of "file3.txt" using the "cat" command.
+
+Use the "exit" command to return to your original user account.
+
+Use the "tar" command to create a compressed archive of the "permissions-exercise" directory.
+
+Use the "gzip" command to compress the archive even further.
+
+Use the "scp" command to copy the archive to a remote server.
+
+Use the "ssh" command to log in to the remote server.
+
+Use the "ls" command to verify that the
