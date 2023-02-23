@@ -1,0 +1,79 @@
+Create a new directory called "chain-exercise" in your home directory.
+
+Create a subdirectory called "docs" inside the "chain-exercise" directory.
+
+Navigate to the "docs" directory.
+
+Create a new text file called "notes.txt" using the "nano" command.
+
+Add a few lines of text to the "notes.txt" file using the "nano" editor.
+
+Save and exit the "notes.txt" file.
+
+Navigate back to the "chain-exercise" directory.
+
+Create a subdirectory called "images" inside the "chain-exercise" directory.
+
+Download an image file from the internet and move it to the "images" directory.
+
+Verify that the image file is in the "images" directory using the "ls" command.
+
+Navigate to the "docs" directory.
+
+Use the "cat" command to display the contents of the "notes.txt" file.
+
+Append a few more lines of text to the "notes.txt" file using the "nano" editor.
+
+Save and exit the "notes.txt" file.
+
+Navigate back to the "chain-exercise" directory.
+
+Create a subdirectory called "backups" inside the "chain-exercise" directory.
+
+Use the "cp" command to make a copy of the "notes.txt" file and move it to the "backups" directory.
+
+Use the "rm" command to delete the original "notes.txt" file.
+
+Use the "ls" command to verify that the "notes.txt" file has been deleted.
+
+Navigate to the "docs" directory.
+
+Use the "cat" command to display the contents of the "notes.txt" file.
+
+Use the "mv" command to move the "notes.txt" file from the "docs" directory to the "images" directory.
+
+Navigate to the "images" directory.
+
+Use the "ls" command to verify that the "notes.txt" file is in the "images" directory.
+
+Use the "mv" command to rename the image file to "my-image.jpg".
+
+Navigate to the "backups" directory.
+
+Use the "cp" command to make a copy of the "notes.txt" file and move it to the "chain-exercise" directory.
+
+Navigate to the "chain-exercise" directory.
+
+Use the "ls" command to verify that the "notes.txt" file is in the "chain-exercise" directory.
+
+Use the "tar" command to create a compressed archive of the "images" directory.
+
+Use the "gzip" command to compress the archive even further.
+
+Use the "rm" command to delete the "images" directory and all its contents.
+
+Use the "ls" command to verify that the "images" directory is no longer present.
+
+Use the "tar" and "gzip" commands to extract and decompress the compressed archive file you created earlier.
+
+Use the "ls" command to verify that the "images" subdirectory and its contents have been restored.
+
+Use the "history" command to view a list of all the commands you've entered during this exercise.
+
+Create a compressed archive of the "chain-exercise" directory.
+
+Use the "scp" command to copy the archive to a remote server.
+
+Use the "ssh" command to log in to the remote server.
+
+Use the "ls" command to verify that the archive
