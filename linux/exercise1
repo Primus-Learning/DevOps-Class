@@ -36,15 +36,10 @@ Use the "rm" command to delete the original "notes.txt" file.
 
 Use the "ls" command to verify that the "notes.txt" file has been deleted.
 
-Navigate to the "docs" directory.
-
-Use the "cat" command to display the contents of the "notes.txt" file.
-
-Use the "mv" command to move the "notes.txt" file from the "docs" directory to the "images" directory.
 
 Navigate to the "images" directory.
 
-Use the "ls" command to verify that the "notes.txt" file is in the "images" directory.
+Use the "ls" command to verify that the "image" file is in the "images" directory.
 
 Use the "mv" command to rename the image file to "my-image.jpg".
 
