@@ -1,0 +1,22 @@
+Objective:
+
+To create a Bash script that checks if a given website is up or down using the cURL command and sends an email notification to the system administrator if the website is down.
+
+Instructions:
+
+Create a new Bash script called "website_monitor.sh".
+
+Declare a variable called "website_url" and set it to the URL of the website you want to monitor.
+
+Declare a variable called "email_address" and set it to the email address of the system administrator.
+
+Declare a variable called "email_subject" and set it to the subject of the email notification.
+
+Use the cURL command to check if the website is up or down. If the website is up, print a message that says "The website is up". If the website is down, send an email notification to the system administrator using the "mail" command.
+
+Use an if statement to check if the website is down. If the website is down, use the "mail" command to send an email notification to the system administrator with the following message: "The website is down. Please check it immediately."
+
+Save and run the script.
+
+Set up a cron job to run the script at regular intervals, such as every 5 minutes.
+

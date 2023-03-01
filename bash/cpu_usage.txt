@@ -1,0 +1,25 @@
+Objective:
+
+To create a Bash script that monitors the CPU usage of a Linux server and sends an email notification to the system administrator if the CPU usage exceeds a certain threshold.
+
+Instructions:
+
+Create a new Bash script called "cpu_usage_monitor.sh".
+
+Declare a variable called "cpu_threshold" and set it to the maximum percentage of CPU usage that is allowed before sending an email notification.
+
+Declare a variable called "email_address" and set it to the email address of the system administrator.
+
+Declare a variable called "email_subject" and set it to the subject of the email notification.
+
+Use the "top" command to check the CPU usage of the server and store the output in a variable called "cpu_usage_output".
+
+Use the "grep" command to extract the percentage of CPU usage from the "cpu_usage_output" variable and store it in a variable called "cpu_usage_percentage".
+
+Use an if statement to check if the "cpu_usage_percentage" variable is greater than the "cpu_threshold" variable. If it is, send an email notification to the system administrator using the "mail" command.
+
+Use the "mail" command to send an email notification to the system administrator with the following message: "CPU usage has exceeded the threshold of [cpu_threshold]%."
+
+Save and run the script.
+
+Set up a cron job to run the script at regular intervals, such as every 5 minute

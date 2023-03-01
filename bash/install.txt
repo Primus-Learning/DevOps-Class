@@ -1,0 +1,25 @@
+Objective:
+
+To create a Bash script that installs a package on CentOS 7 and Ubuntu.
+
+Instructions:
+
+Create a new Bash script called "package_installer.sh".
+
+Declare a variable called "package_name" and set it to the name of the package that you want to install.
+
+Use an if statement to check if the operating system is CentOS 7 or Ubuntu. You can use the following commands to determine the operating system:
+
+For CentOS 7: cat /etc/redhat-release
+
+For Ubuntu: lsb_release -d
+
+If the operating system is CentOS 7, use the "yum" command to install the package. If the operating system is Ubuntu, use the "apt-get" command to install the package.
+
+Use the "echo" command to print a message to the console indicating that the package has been installed.
+
+Save and run the script.
+
+Test the script on both CentOS 7 and Ubuntu to ensure that the package is installed correctly.
+
+Note: Make sure to update the "package_name" variable to match the package that you want to install. Also, make sure to test the script thoroughly to ensure it works as expected.

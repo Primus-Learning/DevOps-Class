@@ -1,0 +1,35 @@
+Objective:
+
+To create a Bash script that reads a list of numbers from a file and performs several calculations on them.
+
+Instructions:
+
+Create a file called "numbers.txt" and add the following numbers to it, each on a new line:
+
+Copy code
+10
+20
+30
+40
+50
+Create a new Bash script called "number_calculator.sh".
+
+Declare a variable called "file_name" and set it to "numbers.txt".
+
+Use an if statement to check if the file exists. If the file does not exist, print an error message and exit the script. If the file exists, continue with the calculations.
+
+Declare a variable called "total" and set it to 0.
+
+Use a loop to read each line of the file and add the number to the "total" variable.
+
+Declare a variable called "count" and set it to the number of lines in the file.
+
+Declare a variable called "average" and calculate it by dividing the "total" variable by the "count" variable.
+
+Use an if statement to check if the "average" variable is greater than 30. If it is, print a message that says "The average is above 30". If it is not, print a message that says "The average is below 30".
+
+Use an if statement to check if the "total" variable is greater than 100. If it is, print a message that says "The total is greater than 100". If it is not, print a message that says "The total is not greater than 100".
+
+Use an if statement to check if the "count" variable is even or odd. If it is even, print a message that says "The count is even". If it is odd, print a message that says "The count is odd".
+
+Save and run the script.
