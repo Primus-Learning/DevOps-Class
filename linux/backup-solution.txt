@@ -1,0 +1,18 @@
+Project Title: Automated Backup Solution
+
+Project Description: In this project, you will be tasked with creating an automated backup solution for a Linux server. The solution should be capable of performing the following actions:
+
+Backup data: You will need to automate the backup of specific directories on the server to a remote storage location (e.g. another server, cloud storage, etc.).
+
+Retention policy: You will need to implement a retention policy that specifies how long backups should be kept before being deleted.
+
+Restoration: You will need to demonstrate the ability to restore data from a backup.
+
+Scheduling: You will need to set up a scheduling mechanism for the backups to occur on a regular basis (e.g. daily, weekly, monthly, etc.).
+
+Reporting: You will need to set up a reporting mechanism that provides notifications in the event of a successful or unsuccessful backup.
+
+Deliverables:
+
+A report documenting the backup solution and its configuration
+A working backup solution that has been tested and validated
