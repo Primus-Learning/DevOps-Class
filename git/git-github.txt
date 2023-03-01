@@ -1,0 +1,69 @@
+Create a new GitHub repository called "git-exercise".
+
+Clone the repository to your local machine.
+
+Create a new file called "README.md" in the repository.
+
+Use Git to add the file to the repository and commit the change with a meaningful commit message.
+
+Create a new branch called "feature" and switch to it.
+
+Edit the "README.md" file to add some content and commit the change with a meaningful commit message.
+
+Switch back to the "main" branch.
+
+Merge the "feature" branch into the "main" branch.
+
+Push the changes to the GitHub repository.
+
+Create a new branch called "bugfix" and switch to it.
+
+Edit the "README.md" file to fix a typo and commit the change with a meaningful commit message.
+
+Switch back to the "main" branch.
+
+Create a pull request to merge the "bugfix" branch into the "main" branch.
+
+Review the pull request and merge it into the "main" branch.
+
+Pull the changes to your local machine.
+
+Create a new branch called "experiment" and switch to it.
+
+Create a new file called "experiment.py" in the repository.
+
+Use Git to add the file to the repository and commit the change with a meaningful commit message.
+
+Push the changes to the GitHub repository.
+
+Create a pull request to merge the "experiment" branch into the "main" branch.
+
+Review the pull request and reject it.
+
+Switch back to the "experiment" branch.
+
+Edit the "experiment.py" file to fix a bug and commit the change with a meaningful commit message.
+
+Push the changes to the GitHub repository.
+
+Create a new pull request to merge the "experiment" branch into the "main" branch.
+
+Review the pull request and merge it into the "main" branch.
+
+Pull the changes to your local machine.
+
+Delete the "bugfix" and "experiment" branches.
+
+Use Git to tag the current version of the repository with a meaningful tag name.
+
+Push the tag to the GitHub repository.
+
+Verify that the tag has been created on GitHub.
+
+Delete the local repository.
+
+Clone the repository to a new directory on your local machine.
+
+Verify that the tag has been cloned to the new directory.
+
+Delete the remote repository on GitHub.
