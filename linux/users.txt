@@ -1,0 +1,28 @@
+Assignment: Linux User and Group Management
+
+User Creation:
+
+Create a new user with the following details:
+Username: student1
+Home directory: /home/student1
+Shell: /bin/bash
+Set a password for the new user.
+
+Password Management:
+
+Log in as the newly created user, student1.
+Change the password for student1 to a strong and unique password of your choice.
+
+Group Management:
+
+Create a new group called classroom.
+Add the user student1 to the classroom group.
+
+Verification:
+
+Provide the following information:
+The command used to create the user student1.
+The command used to change the password for student1.
+The command used to create the classroom group.
+The command used to add student1 to the classroom group.
+The final list of users in the classroom group.
