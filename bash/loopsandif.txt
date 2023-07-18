@@ -1,0 +1,17 @@
+Exercise 1: Counting Files
+Write a bash script that counts the number of files in a given directory. Use a for loop to iterate over the files in the directory and an if statement to check if each item is a file. Print the total count of files at the end.
+
+Exercise 2: File Backup
+Write a bash script that backs up all files in a directory to a backup directory. Use a for loop to iterate over the files in the directory and an if statement to check if each item is a file. If it is, copy the file to the backup directory. At the end, print a message indicating the number of files backed up.
+
+Exercise 3: File Type Classification
+Write a bash script that classifies files in a directory into different types (e.g., text files, image files, script files). Use a for loop to iterate over the files in the directory and an if statement to check the file extension. Based on the file extension, move the file to the corresponding subdirectory (create the subdirectories if they don't exist). Print a message indicating the classification of each file.
+
+Exercise 4: Number Classification
+Write a bash script that takes an input number and classifies it into positive, negative, or zero. Use an if statement to check the value of the input number and print the corresponding classification.
+
+Exercise 5: User Validation
+Write a bash script that prompts the user for a username and validates if it exists in the system. Use an if statement to check if the username exists and print an appropriate message.
+
+Exercise 6: Password Strength Checker
+Write a bash script that prompts the user for a password and checks its strength based on certain criteria (e.g., minimum length, presence of special characters, numbers, uppercase and lowercase letters). Use if statements to check each criterion and print a message indicating the strength of the password.
